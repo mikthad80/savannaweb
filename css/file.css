@@ -188,8 +188,19 @@ footer {
     text-align: center;
   }
 
-@media screen and (max-width: 600px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media(max-width: 600px) {
+  header #brand,
+    article#main-col,
+    side#sidebar,
+    #boxes .box img,
+    #boxes .box,
+    #boxes,
+    #newsletter form,
+    #newsletter,
+    aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
   }
+
 }
