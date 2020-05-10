@@ -190,6 +190,8 @@ footer {
 
 @media(max-width: 600px) {
   header #brand,
+    header a,
+    header li,
     article#main-col,
     side#sidebar,
     #boxes .box img,
